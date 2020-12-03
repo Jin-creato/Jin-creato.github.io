@@ -3,6 +3,26 @@
 <head>
 <style>
 
+ div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 h1 {
   text-align: center;
 }
@@ -35,8 +55,12 @@ p {color: red}
 <h1 style="font-family:Times New Roman;">Perview Portfolio</h1> 
 <h2 style="font-family:Times New Roman;">General Introdution:</h2>
 <p style="font-family:Times New Roman;">This page includes several basic projects I did in the fall of 2020: project 1,2 and 3. I've called them the Human Universe Poem, the Memoir Video, and the Born and Death Game.</p>
-
-<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2131653318,3732568576&fm=15&gp=0.jpg" width="600" height="250">
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2131653318,3732568576&fm=15&gp=0.jpg" width="600" height="400">
+     </a>
+   <div class="desc">Human Universe Poem</div>
+</div>
 
 <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=529146105,2710240980&fm=26&gp=0.jpg" width="600" height="250">
 
