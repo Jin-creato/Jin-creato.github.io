@@ -3,7 +3,25 @@
 <head>
 <style>
 
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
 h1 {
+  text-align: center;
+}
+  h6 {
   text-align: center;
 }
   h2 {
@@ -22,6 +40,10 @@ body {
   background-color: lightblue;
 }
 h1 {
+  color: black;
+  margin-left:;
+} 
+  h6 {
   color: black;
   margin-left:;
 } 
@@ -48,6 +70,7 @@ p {color: black}
 
 
 <h1 style="font-family:Times New Roman;">Perview Portfolio</h1> 
+  <h6 style="font-family:Times New Roman;">By Jinhao Zhao</h6>
 <h2 style="font-family:Times New Roman;">General Introdution:</h2>
 <p style="font-family:Times New Roman;">This page includes several basic projects I did in the fall of 2020: project 1,2 and 3. I've called them the Human Universe Poem, the Memoir Video, and the Born and Death Game.</p>
  
@@ -59,11 +82,20 @@ p {color: black}
 
 <h3 style="font-family:Times New Roman;">The Human Universe Poem:</h3>
  <p style="font-family:Times New Roman;">I have always been curious about the universe, and also about the human body. The universe is as complex as the human body, and in many novels and movies, I think the universe and the human body run the same, so I wrote this poem.</p>
+ 
+ <p style="font-family:Times New Roman;">The universe is space and time,<br>Planets, stars, galaxies,<br>All forms of matter and energy.<br>Fear of the unknown,<br>In the multivariate hypothesis,<br>The existence of the human universe,<br>Cells, planets,<br>Blood, Milky Way<br>The viscera and the six viscera and the five elements<br>Maybe,<br>We are the universe.</p>
+ 
+ <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=529146105,2710240980&fm=26&gp=0.jpg" width="570" height="250">
+
+<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2134383883,102042701&fm=26&gp=0.jpg" width="570" height="250">
+
+<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2563728742,4076699831&fm=26&gp=0.jpg" width="570" height="250">
+
 <h4 style="font-family:Times New Roman;">The Memoir Video:</h4>
   <p style="font-family:Times New Roman;">This is the video that my cousin and I shot when they went to Hawaii and other places in the past. We were happy and happy all the way. I edited them together in order to form a good time line and story for watching.</p>
-  <p style="font-family:Times New Roman;">Link: https://www.youtube.com/watch?v=fXGePLAHUac</p>
+  <a href="default.asp" target="_blank"> https://www.youtube.com/watch?v=fXGePLAHUac</a>
 <h5 style="font-family:Times New Roman;">The Born and Death Game:</h5>
   <p style="font-family:Times New Roman;">This is a little game I made online with Twine. The main purpose of this game is to show people that no matter what your birth and experience process is, the final result is the same. So we should recognize ourselves and the world, and keep a good attitude.</p>
-  <p style="font-family:Times New Roman;">Link: file:///Users/andy/Desktop/Project%204_%20Born%20and%20death.html</p>
+  <a href="default.asp" target="_blank"> file:///Users/andy/Desktop/Project%204_%20Born%20and%20death.html</a>
 </body>
 </html>
